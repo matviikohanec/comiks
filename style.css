@@ -1,0 +1,54 @@
+
+
+
+a{
+    text-decoration: none;
+   color: white;
+   background-color: #CD0E0E;
+   border-radius: 20px;
+   margin-left: 46px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #404040;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.banner{
+    height: 90vh;
+    background-image: url(img/Group\ 1\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 53px;
+    padding-left: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+.banner_text{
+    background-color: #404040be;
+    width: fit-content;
+    box-shadow: 8px 10px 0px#000000b5;
+    border-radius: 10px;
+    
+}
+
+h1{
+    background-color: #404040be;
+    width: 500px;
+    box-shadow: 8px 10px 0px#000000b5;
+    border-radius: 10px;
+    
+}
