@@ -5,13 +5,15 @@ a{
     text-decoration: none;
    color: white;
    background-color: #CD0E0E;
-   border-radius: 20px;
+   border-radius: 10px;
+   padding: 6px;
    margin-left: 46px;
 }
 
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Instrument Sans';
 }
 
 header{
@@ -42,13 +44,89 @@ header{
     width: fit-content;
     box-shadow: 8px 10px 0px#000000b5;
     border-radius: 10px;
+    padding: 20px;
     
 }
 
-h1{
+.banner_text p{
+    margin: 0;
+}
+.banner_text input{
+ background-color: #404040;
+ border: none;
+ border-radius: 20px;
+}
+
+.title{
     background-color: #404040be;
     width: 500px;
     box-shadow: 8px 10px 0px#000000b5;
     border-radius: 10px;
+    padding: 20px;
     
 }
+
+.catalog{
+    background-color: #404040;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tit{
+  color: white;
+  text-align: center;
+  font-size: 80px;
+text-shadow: 0px 8px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.items{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+.item{
+     background-color: #5B5B5B;
+    border-radius: 20px;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item img{
+    width: 100%;
+}
+
+.item h3{
+text-align: center;
+color: white;
+font-weight: bold;
+}
+
+
+.item p{
+    text-align: center;
+    color: aliceblue;
+}
+
+.item button{
+    text-align: center;
+    font-size: 40px;
+    background-color: #CD0E0E;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    transition: 0.3s linear;
+
+}
+
+.item button:hover{
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.25);
+    transform: scale(1.2);
+}
+
