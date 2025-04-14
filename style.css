@@ -1,5 +1,16 @@
 
+html {
+    scroll-behavior: smooth;
+}
 
+.link{
+    transition: 0.1s linear;
+}
+
+
+.link:active{
+    background-color: #ffffff;
+}
 
 a{
     text-decoration: none;
@@ -100,6 +111,7 @@ text-shadow: 0px 8px 0px rgba(0, 0, 0, 0.25);
 
 .item img{
     width: 100%;
+    transition: 0.3s linear;
 }
 
 .item h3{
@@ -121,12 +133,74 @@ font-weight: bold;
     border-radius: 10px;
     border: none;
     color: white;
-    transition: 0.3s linear;
+    transition: 0.2s linear;
 
 }
 
 .item button:hover{
     box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.25);
     transform: scale(1.2);
+
 }
 
+.item button:active{
+    background-color: #ffffff;
+    transform: scale(1.0);
+}
+
+.item img:hover{
+    transform: scale(0.9);
+}
+
+.pronas{
+    background-color: #333333;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tittle4{
+    color: white;
+    font-size: 100px;
+    text-shadow: 0px 8px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 30px;
+    padding-top: 5px ;
+    padding-left: 5px ;
+}
+
+.Info{
+    display: flex;
+    
+}
+
+.Info p{
+    color: white;
+    text-shadow: 0px 8px 5px rgba(0, 0, 0, 0.25);
+    font-size: 35px;
+}
+
+.Info img{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.coments_backgrount{
+    background-color: #161616;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sotial_midea{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.sotial_midea1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.sotial_midea_a{
+    color:white;
+    text-decoration: none;
+}
