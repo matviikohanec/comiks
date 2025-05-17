@@ -1,7 +1,7 @@
 [
     {
         "title": "STEEL BALL RUN",
-        "price": 250,
+        "price": 350,
         "image": "sbr.png"
     },
     {
@@ -11,39 +11,58 @@
     },
     {
         "title": "INVICIBLE",
-        "price": 250,
+        "price": 300,
         "image": "invi.png"
     },
     {
         "title": "SPIDER MAN",
-        "price": 250,
+        "price": 150,
         "image": "spider.png"
     },
     {
         "title": "Lego Ninjago",
-        "price": 250,
+        "price": 200,
         "image": "ninjago.png"
     },
     {
         "title": "steven universe",
-        "price": 250,
+        "price": 400,
         "image": "steven.png"
     },
     {
         "title": "batman",
-        "price": 250,
+        "price": 150,
         "image": "batman.png"
     },
     {
         "title": "Iron man",
-        "price": 250,
+        "price": 150,
         "image": "iron.png"
     },
 
     {
         "title": "Fortnite X Marvel",
-        "price": 250,
+        "price": 350,
         "image": "fortnite.png"
+    },
+
+    {
+        "title": "five nights at freddy's",
+        "price": 320,
+        "image": "fnaf.png"
+    },
+
+    {
+        "title": "jojolands ",
+        "price": 350,
+        "image": "jojo.png"
+    },
+
+    {
+        "title": "Team Fortress 2",
+        "price": 250,
+        "image": "tf2.png"
     }
+
 
 ]

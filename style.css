@@ -273,3 +273,11 @@ font-weight: bold;
         background-color: #ffffff;
         transform: scale(1.0);
     }
+
+
+    .search{
+        background-color: #101010;
+        color: white;
+        border: none;
+        border-radius: 10%;
+    }
