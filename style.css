@@ -280,4 +280,15 @@ font-weight: bold;
         color: white;
         border: none;
         border-radius: 10%;
+        padding: 10px 20px;
     }
+
+.inp{
+    padding: 10px 20px;
+}
+
+.buy_btn{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
